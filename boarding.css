@@ -57,6 +57,7 @@
 .fxs_poster .fxs_back,
 .fxs_two-cols-stripe-bg .fxs_back {
   line-height: 28px;
+  text-decoration: underline;
 }
 .fxs_two-cols-stripe-bg .fxs_onboarding_info .fxs_list_unstyled {
   margin-top: 2rem;
@@ -554,4 +555,23 @@ input.fxs_input_error {
 }
 input[type="checkbox"]:checked + .fxs_chip-checkbox {
   background-color: #dddedf;
+}
+.fxs_left-mobile-center,
+.fxs_right-mobile-center {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .fxs_right-mobile-center {
+    float: right;
+    width:auto;
+  }
+  .fxs_left-mobile-center {
+    float: left;
+    width:auto;
+  }
+}
+.fxs_txt-underline{
+    text-transform: uppercase;
 }
