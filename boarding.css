@@ -5,7 +5,7 @@
   width: 100%;
   position: relative;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .fxs_two-cols-stripe-bg {
     margin: 100px 0 0 0;
     position: relative;
@@ -17,7 +17,7 @@
   position: relative;
   padding: 0;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .fxs_two-cols-stripe-bg > .fxs_row {
     margin: 0 auto;
     max-width: 1033px;
@@ -30,17 +30,17 @@
     margin: auto;
   }
 }
-.fxs_two-cols-stripe-bg .fxs_col_50_mm {
+.fxs_two-cols-stripe-bg .fxs_col_50 {
   padding: 2rem;
 }
-.fxs_two-cols-stripe-bg .fxs_col_50_mm:last-of-type {
+.fxs_two-cols-stripe-bg .fxs_col_50:last-of-type {
   background-color: white;
   margin: 0;
   float: left;
   width: 100%;
 }
-@media (min-width: 1280px) {
-  .fxs_two-cols-stripe-bg .fxs_col_50_mm:last-of-type {
+@media (min-width: 1024px) {
+  .fxs_two-cols-stripe-bg .fxs_col_50:last-of-type {
     float: none;
     max-width: 550px;
     margin-top: -75px;
@@ -182,7 +182,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fxs_poster {
     padding: 3rem;
   }
@@ -365,7 +365,7 @@
     -webkit-flex-basis: 67%;
     flex-basis: 67%;
   }
-  .fxs_col_50_mm {
+  .fxs_col_50 {
     -webkit-flex-basis: 50%;
     flex-basis: 50%;
   }
@@ -411,13 +411,13 @@ input.fxs_input_error {
     width: 580px;
   }
 }
-.fxs_col_50_mm {
+.fxs_col_50 {
   width: 100%;
   display: block;
 }
 
-@media (min-width: 1280px) {
-  .fxs_col_50_mm {
+@media (min-width: 1024px) {
+  .fxs_col_50 {
     display: inline-block;
     vertical-align: top;
     width: 50%;
@@ -562,7 +562,7 @@ input[type="checkbox"]:checked + .fxs_chip-checkbox {
   width: 100%;
   padding: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fxs_right-mobile-center {
     float: right;
     width:auto;
@@ -574,4 +574,15 @@ input[type="checkbox"]:checked + .fxs_chip-checkbox {
 }
 .fxs_txt-underline{
     text-transform: uppercase;
+}
+
+.fxs_headline_from_small_to_medium{
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+@media(min-width:680px){
+    .fxs_headline_from_small_to_medium{
+font-size: 1.4rem;
+line-height: 1.6rem;
+    }
 }
