@@ -58,6 +58,14 @@
 .fxs_two-cols-stripe-bg .fxs_back {
   line-height: 28px;
   text-decoration: underline;
+  position: relative;
+}
+.fxs_back .fas {
+  position: absolute;
+  top: 50%;
+  left: 1.2rem;
+  transform: translateY(-50%);
+  margin-left: 1.2rem;
 }
 .fxs_two-cols-stripe-bg .fxs_onboarding_info .fxs_list_unstyled {
   margin-top: 2rem;
@@ -565,24 +573,24 @@ input[type="checkbox"]:checked + .fxs_chip-checkbox {
 @media (min-width: 1024px) {
   .fxs_right-mobile-center {
     float: right;
-    width:auto;
+    width: auto;
   }
   .fxs_left-mobile-center {
     float: left;
-    width:auto;
+    width: auto;
   }
 }
-.fxs_txt-underline{
-    text-transform: uppercase;
+.fxs_txt-underline {
+  text-transform: uppercase;
 }
 
-.fxs_headline_from_small_to_medium{
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+.fxs_headline_from_small_to_medium {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
 }
-@media(min-width:680px){
-    .fxs_headline_from_small_to_medium{
-font-size: 1.4rem;
-line-height: 1.6rem;
-    }
+@media (min-width: 680px) {
+  .fxs_headline_from_small_to_medium {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
 }
