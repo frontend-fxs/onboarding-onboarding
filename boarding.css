@@ -182,18 +182,16 @@
   padding-bottom: 0;
 }
 .fxs_poster {
-  border: 1px solid #a3a3a8;
-  padding: 1rem;
-  margin-top: 100px;
+  padding: 3rem;
+  margin-top: 40px;
   margin-bottom: 100px;
   max-width: 600px;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
-@media (min-width: 1024px) {
-  .fxs_poster {
-    padding: 3rem;
-  }
+@media(min-width:1024px){
+    .fxs_poster{
+        border: 1px solid #a3a3a8;
+        padding:3rem;
+    }
 }
 .fxs_poster.fxs_big-poster {
   max-width: 1100px;
