@@ -73,46 +73,67 @@
                     <span class="fxs_newsletter-name">The Week Ahead</span>
                 </label>
                 <input type="checkbox" class="fxs_hideElements" id="chip-5">
-                <label class="fxs_chip-checkbox" for="chip-5">
+                <label class="fxs_chip-checkbox fxs_hidden_xs" for="chip-5">
                     <span class="fas fa-bell" aria-hidden="true"></span>
                     <span class="fxs_newsletter-name">Special Alerts</span>
                 </label>
                 <input type="checkbox" class="fxs_hideElements" id="chip-6">
-                <label class="fxs_chip-checkbox" for="chip-6">
+                <label class="fxs_chip-checkbox fxs_hidden_xs" for="chip-6">
                     <span class="fas fa-calendar-check" aria-hidden="true"></span>
                     <span class="fxs_newsletter-name">Economic Calendar</span>
                 </label>
                 <input type="checkbox" class="fxs_hideElements" id="chip-7">
-                <label class="fxs_chip-checkbox" for="chip-7">
+                <label class="fxs_chip-checkbox fxs_hidden_xs" for="chip-7">
                     <span class="fas fa-binoculars" aria-hidden="true"></span>
                     <span class="fxs_newsletter-name">Currencies Forecast</span>
                 </label>
                 <input type="checkbox" class="fxs_hideElements" id="chip-8">
-                <label class="fxs_chip-checkbox" for="chip-8">
+                <label class="fxs_chip-checkbox  fxs_hidden_xs" for="chip-8">
                     <span class="fas fa-chart-bar" aria-hidden="true"></span>
                     <span class="fxs_newsletter-name">Trading Ideas</span>
                 </label>
                 <input type="checkbox" class="fxs_hideElements" id="chip-9">
-                <label class="fxs_chip-checkbox" for="chip-9">
+                <label class="fxs_chip-checkbox  fxs_hidden_xs" for="chip-9">
                     <span class="fas fa-euro-sign" aria-hidden="true"></span>
                     <span class="fxs_newsletter-name">Subscribe All</span>
                 </label>
             </div>
-            <div class="fxs_clearfix fxs_marginBase"></div>
-        <p class="fxs_left-mobile-center">
-          <a class="fxs_mutedLink  fxs_back" href="index.html">
-            <span class="far fa-angle-double-left" aria-hidden="true"></span>
-            Keep reading the news
-          </a>
-        </p>
-        <p class="fxs_right-mobile-center">
-          <a
-            href="authors.html"
-            class="fxs_btn fxs_btn_cta  fxs_btn_small fxs_paddingBase_right_big fxs_paddingBase_left_big"
-          >
-            Continue
-          </a>
-        </p>
+            <div class="fxs_visible_ss fxs_col_100" id="showmore">
+                <hr />
+                <script>
+                    function showAllAuthors() {
+                        document.querySelectorAll(".fxs_hidden_xs").forEach(element => {
+                            element.classList.remove("fxs_hidden_xs");
+                        });
+                        document
+                            .querySelector("#showmore")
+                            .classList.add("fxs_hideElements");
+                    }
+                </script>
+                <p class="fxs_txt_center">
+                    <button class="fxs_btn" onclick="showAllAuthors()">
+                        <strong class="">
+                            <span>
+                                SHOW MORE NEWSLETTERS
+                            </span>
+                            <span class="fas fa-angle-down"> </span>
+                        </strong>
+                    </button>
+                </p>
+            </div>
+            <div class="fxs_clearfix fxs_marginBase fxs_hidden_xs"></div>
+            <p class="fxs_right-mobile-center">
+                <a href="authors.html"
+                    class="fxs_btn fxs_btn_cta  fxs_btn_small fxs_paddingBase_right_big fxs_paddingBase_left_big">
+                    Continue
+                </a>
+            </p>
+            <p class="fxs_left-mobile-center">
+                <a class="fxs_mutedLink  fxs_back" href="index.html">
+                    <span class="far fa-angle-double-left" aria-hidden="true"></span>
+                    Keep reading the news
+                </a>
+            </p>
         </div>
     </div>
     <footer class="fxs_footer fxs_modal_footer">
