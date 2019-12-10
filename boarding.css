@@ -137,12 +137,7 @@
   padding: 10px;
   font-size: 17.5px;
 }
-.fxs_formGroup label .fxs_signup_custom_small {
-  font-weight: 400;
-}
-.fxs_entryPlain_txt_large.fxs_signup-subtitle {
-  font-weight: 400;
-}
+
 .fxs_detail_user .fxs_user_form,
 .fxs_detail_user .fxs_confirm_signup {
   padding: 0;
@@ -433,15 +428,7 @@ input.fxs_input_error {
     float: left;
   }
 }
-
-.fxs_payment-process-steps-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .fxs_payment-process-steps {
-  display: flex;
-  justify-content: center;
   width: 300px;
 }
 .fxs_payment-process-steps .fxs_step {
